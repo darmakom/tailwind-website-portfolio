@@ -16,11 +16,33 @@
                 </div>
                 <div>
                     <div class="flex items-center px-4">
-                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
                             <span class="hamburger-line transition duration-300 ease-in-out origin-top-left "></span>
                             <span class="hamburger-line transition duration-300 ease-in-out"></span>
                             <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
                         </button>
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] right-4 w-full top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="#home" class="text-base text-neutral-950 py-1 px-3 flex group-hover:text-teal-500">Beranda</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="text-base text-neutral-950 py-1 px-3 flex  group-hover:text-teal-500">Tentang Saya</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#portfolio" class="text-base text-neutral-950 py-1 px-3 flex group-hover:text-teal-500">Portfolio</a>
+                                </li> 
+                                <li class="group">
+                                    <a href="#clients" class="text-base text-neutral-950 py-1 px-3 flex group-hover:text-teal-500">Clients</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#blog" class="text-base text-neutral-950 py-1 px-3 flex group-hover:text-teal-500">Blog</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#contact" class="text-base text-neutral-950 py-1 px-3 flex group-hover:text-teal-500">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -88,6 +110,27 @@
         </div>
     </section> 
    <!-- About Section End -->
+
+   <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <div class="container">
+        <div class="w-full px4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-teal-500 mb-2">Portfolio</h4>
+                <h2 class="font-bold text-neutral-950 text-3xl mb-4">Project Terbaru</h2>
+                <p class="font-medium text-md text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore reprehenderit non, quia nostrum asperiores eligendi accusantium ad adipisci sint?</p>
+            </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+            <div class="mb-12 p-4">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+   <!-- Portfolio Section End -->
 
    <script src="dist/js/script.js"></script>
 </body>
